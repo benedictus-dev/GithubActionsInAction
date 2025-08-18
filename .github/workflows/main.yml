@@ -1,0 +1,19 @@
+name: My first workflow 
+
+on:
+  push:
+    branches:
+      - main 
+  workflow_dispatch:
+
+jobs:
+  Myfrstjob:
+   runs-on: ubuntu-latest 
+   steps:
+     - run: |
+         echo "Hello World"
+         echo "This is multiple line implementation"
+     
+  
+  
+    
