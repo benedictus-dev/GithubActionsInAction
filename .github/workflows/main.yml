@@ -24,15 +24,13 @@ on:
     #     description: 'Environment to run tests against'
     #     required: true
 
-# jobs:
-#   Myfrstjob:
-#    runs-on: ubuntu-latest
-#    steps:
-#      - run: |
-#          echo "Hello Worlds "
-#          echo "This is multiple line implementations"
-#
 jobs:
+  Myfrstjob:
+   runs-on: ubuntu-latest
+   steps:
+     - run: |
+         echo "Hello Worlds "
+         echo "This is multiple line implementations"
   job_1:
     runs-on: ubuntu-latest
     steps:
